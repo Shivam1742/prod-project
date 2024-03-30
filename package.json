@@ -1,0 +1,18 @@
+{
+  "name": "prod-project",
+  "version": "1.0.0",
+  "description": "first production grade backend app",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "author": "Shivam Dubey",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
